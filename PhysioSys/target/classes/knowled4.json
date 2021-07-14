@@ -1,0 +1,1166 @@
+{
+  "lists": [
+    {
+      "name": "YesNoList",
+      "options": [
+        "Yes.",
+        "No."
+      ]
+    },
+    {
+      "name": "ageRangeList",
+      "options": [
+        "below20",
+        "above50Below60",
+        "above60"
+      ]
+    },
+    {
+      "name": "locationPainList",
+      "options": [
+        "Neck",
+        "LowerBack"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "name": "locationQuestion",
+      "type": "choiceSelection",
+      "question": "Where does it hurt?",
+      "options": "locationPainList",
+      "tip": ""
+    },
+    {
+      "name": "ageRangeQuestion",
+      "type": "choiceSelection",
+      "question": "How old are you? Please select a range.",
+      "options": "ageRangeList",
+      "tip": ""
+    },
+    {
+      "name": "hasRecentTrauma",
+      "type": "choiceSelection",
+      "question": "Have you had any recent trauma to the affected area?",
+      "options": "YesNoList",
+      "tip": "For example a heavy fall or blow to the area."
+    },
+    {
+      "name": "constantPain",
+      "type": "choiceSelection",
+      "question": "Is the pain constant regardless of change in posture?",
+      "options": "YesNoList",
+      "tip": "For example a different body position or in rest."
+    },
+    {
+      "name": "unwellness",
+      "type": "choiceSelection",
+      "question": "Do you experience any nocturnal pain?",
+      "options": "YesNoList",
+      "tip": "Pain when trying to sleep."
+    },
+    {
+      "name": "cancerHistory",
+      "type": "choiceSelection",
+      "question": "Is there any history of cancer in the family?",
+      "options": "YesNoList",
+      "tip": ""
+    },
+    {
+      "name": "weightLoss",
+      "type": "choiceSelection",
+      "question": "Has there been any unexplained weight loss in the last 3 months?",
+      "options": "YesNoList",
+      "tip": "More than 5Kg a month."
+    },
+    {
+      "name": "anyFracture",
+      "type": "choiceSelection",
+      "question": "Have you ever had a previous broken vertebrae, or any fracture near the painful site?",
+      "options": "YesNoList",
+      "tip": ""
+    },
+    {
+      "name": "recentDiagnosedInjury",
+      "type": "choiceSelection",
+      "question": "Is there any recent diagnosed injury to the hip?",
+      "options": "YesNoList",
+      "tip": ""
+    },
+    {
+      "name": "usageCorticosteroids",
+      "type": "choiceSelection",
+      "question": "Have you ever or do you currently use corticosteroids?",
+      "options": "YesNoList",
+      "tip": ""
+    },
+    {
+      "name": "tenderWithTouch",
+      "type": "choiceSelection",
+      "question": "Is the affected area tender to the touch?",
+      "options": "YesNoList",
+      "tip": "Is it painful."
+    },
+    {
+      "name": "reductionHeight",
+      "type": "choiceSelection",
+      "question": "Has there been any recent marked reduction in height?",
+      "options": "YesNoList",
+      "tip": ""
+    },
+    {
+      "name": "male",
+      "type": "choiceSelection",
+      "question": "Are you Male?",
+      "options": "YesNoList",
+      "tip": ""
+    },
+    {
+      "name": "misshapingEyes",
+      "type": "choiceSelection",
+      "question": "Do you have any reddness of the eyes, pain, and photophobia?",
+      "options": "YesNoList",
+      "tip": "Photophobia is sensitivity to light."
+    },
+    {
+      "name": "arthritis",
+      "type": "choiceSelection",
+      "question": "Is there any history of arthritis in the extremities?",
+      "options": "YesNoList",
+      "tip": ""
+    },
+    {
+      "name": "inflammatoryBowelDisease",
+      "type": "choiceSelection",
+      "question": "Have you had any history of inflammatory bowel disease?",
+      "options": "YesNoList",
+      "tip": ""
+    },
+    {
+      "name": "painWithoutProvocation",
+      "type": "choiceSelection",
+      "question": "Is the pain mostly nocturnal?",
+      "options": "YesNoList",
+      "tip": "Pain when trying to sleep."
+    },
+    {
+      "name": "stiffness",
+      "type": "choiceSelection",
+      "question": "Do you have any stiffness in the morning?",
+      "options": "YesNoList",
+      "tip": ""
+    },
+    {
+      "name": "lessPainExerecising",
+      "type": "choiceSelection",
+      "question": "Does the pain decrease when lying down or exercising?",
+      "options": "YesNoList",
+      "tip": ""
+    },
+    {
+      "name": "nurofenLessPain",
+      "type": "choiceSelection",
+      "question": "Does medication such as nurofen or ibuprofen relieve pain?",
+      "options": "YesNoList",
+      "tip": "Such as Nurofen Plus Tablets, Advil, Motrin, IBU, Advil Liqui-Gels"
+    },
+    {
+      "name": "neckRecentTrauma",
+      "type": "choiceSelection",
+      "question": "Have you had any recent trauma to the affected area?",
+      "options": "YesNoList",
+      "tip": "For example a heavy fall or blow to the area."
+    },
+    {
+      "name": "neckConstantPain",
+      "type": "choiceSelection",
+      "question": "Is the pain constant regardless of change in posture?",
+      "options": "YesNoList",
+      "tip": "For example a different body position or in rest."
+    },
+    {
+      "name": "neckUnwellness",
+      "type": "choiceSelection",
+      "question": "Is the pain mostly nocturnal??",
+      "options": "YesNoList",
+      "tip": "Pain when trying to sleep."
+    },
+    {
+      "name": "neckHistoryOfCancer",
+      "type": "choiceSelection",
+      "question": "Is there any history of cancer in the family?",
+      "options": "YesNoList",
+      "tip": ""
+    },
+    {
+      "name": "neckWeightLoss",
+      "type": "choiceSelection",
+      "question": "Has there been any unexplained weight loss in the last 3 months?",
+      "options": "YesNoList",
+      "tip": "More than 5Kg a month."
+    },
+    {
+      "name": "neckFever",
+      "type": "choiceSelection",
+      "question": "Do you have fever?",
+      "options": "YesNoList",
+      "tip": ""
+    },
+    {
+      "name": "neckSweat",
+      "type": "choiceSelection",
+      "question": "Have you had unexplained night sweat in the last couple of months?",
+      "options": "YesNoList",
+      "tip": ""
+    },
+    {
+      "name": "neckNeuropathicPain",
+      "question": "Have you recently experienced neuropathic pain?",
+      "type": "choiceSelection",
+      "options": "YesNoList",
+      "tip": "Such as Stabbing pain, chronic prickling, tingling, burning."
+    },
+    {
+      "name": "neckLossOfStrenghtIsolatedAtrophy",
+      "type": "choiceSelection",
+      "question": "Have you had fatigue or loss of independence or twitching, cramping, numbness?",
+      "options": "YesNoList",
+      "tip": " "
+    },
+    {
+      "name": "neckInflammationProcess",
+      "type": "choiceSelection",
+      "question": "Have you had any signs of an inflammation process?",
+      "options": "YesNoList",
+      "tip": "Reddness in the area, tenderness"
+    }
+  ],
+  "goals": [
+    {
+      "name": "RedFlag",
+      "response": "We suggest you book an appintment with a GP."
+    },
+    {
+      "name": "noProblem",
+      "response": "You are cleared for seeing a phisio."
+    }
+  ],
+  "rules": [
+    {
+      "conditions": [
+        {
+          "name": "locationQuestion",
+          "type": "equals",
+          "value": "Neck"
+        },
+        {
+          "name": "neckInflammationProcess",
+          "type": "equals",
+          "value": "Yes."
+        }
+      ],
+      "consequence": {
+        "name": "RedFlag",
+        "type": "boolean",
+        "value": true
+      }
+    },
+    {
+      "conditions": [
+        {
+          "name": "locationQuestion",
+          "type": "equals",
+          "value": "Neck"
+        },
+        {
+          "name": "neckLossOfStrenghtIsolatedAtrophy",
+          "type": "equals",
+          "value": "Yes."
+        }
+      ],
+      "consequence": {
+        "name": "RedFlag",
+        "type": "boolean",
+        "value": true
+      }
+    },
+    {
+      "conditions": [
+        {
+          "name": "locationQuestion",
+          "type": "equals",
+          "value": "Neck"
+        },
+        {
+          "name": "neckNeuropathicPain",
+          "type": "equals",
+          "value": "Yes."
+        }
+      ],
+      "consequence": {
+        "name": "RedFlag",
+        "type": "boolean",
+        "value": true
+      }
+    },
+    {
+      "conditions": [
+        {
+          "name": "locationQuestion",
+          "type": "equals",
+          "value": "Neck"
+        },
+        {
+          "name": "neckSweat",
+          "type": "equals",
+          "value": "Yes."
+        }
+      ],
+      "consequence": {
+        "name": "RedFlag",
+        "type": "boolean",
+        "value": true
+      }
+    },
+    {
+      "conditions": [
+        {
+          "name": "locationQuestion",
+          "type": "equals",
+          "value": "Neck"
+        },
+        {
+          "name": "neckFever",
+          "type": "equals",
+          "value": "Yes."
+        }
+      ],
+      "consequence": {
+        "name": "RedFlag",
+        "type": "boolean",
+        "value": true
+      }
+    },
+    {
+      "conditions": [
+        {
+          "name": "locationQuestion",
+          "type": "equals",
+          "value": "Neck"
+        },
+        {
+          "name": "neckWeightLoss",
+          "type": "equals",
+          "value": "Yes."
+        }
+      ],
+      "consequence": {
+        "name": "RedFlag",
+        "type": "boolean",
+        "value": true
+      }
+    },
+    {
+      "conditions": [
+        {
+          "name": "locationQuestion",
+          "type": "equals",
+          "value": "Neck"
+        },
+        {
+          "name": "neckHistoryOfCancer",
+          "type": "equals",
+          "value": "Yes."
+        }
+      ],
+      "consequence": {
+        "name": "RedFlag",
+        "type": "boolean",
+        "value": true
+      }
+    },
+    {
+      "conditions": [
+        {
+          "name": "locationQuestion",
+          "type": "equals",
+          "value": "Neck"
+        },
+        {
+          "name": "neckRecentTrauma",
+          "type": "equals",
+          "value": "Yes."
+        }
+      ],
+      "consequence": {
+        "name": "RedFlag",
+        "type": "boolean",
+        "value": true
+      }
+    },
+    {
+      "conditions": [
+        {
+          "name": "locationQuestion",
+          "type": "equals",
+          "value": "Neck"
+        },
+        {
+          "name": "neckUnwellness",
+          "type": "equals",
+          "value": "Yes."
+        }
+      ],
+      "consequence": {
+        "name": "RedFlag",
+        "type": "boolean",
+        "value": true
+      }
+    },
+    {
+      "conditions": [
+        {
+          "name": "locationQuestion",
+          "type": "equals",
+          "value": "Neck"
+        },
+        {
+          "name": "neckConstantPain",
+          "type": "equals",
+          "value": "Yes."
+        }
+      ],
+      "consequence": {
+        "name": "RedFlag",
+        "type": "boolean",
+        "value": true
+      }
+    },
+    {
+      "conditions": [
+        {
+          "name": "ageRangeQuestion",
+          "type": "notEquals",
+          "value": "above60"
+        },
+        {
+          "name": "hasRecentTrauma",
+          "type": "equals",
+          "value": "Yes."
+        }
+      ],
+      "consequence": {
+        "name": "RedFlag",
+        "type": "boolean",
+        "value": true
+      }
+    },
+    {
+      "conditions": [
+        {
+          "name": "locationQuestion",
+          "type": "equals",
+          "value": "LowerBack"
+        },
+        {
+          "name": "ageRangeQuestion",
+          "type": "equals",
+          "value": "above60"
+        },
+        {
+          "name": "hasRecentTrauma",
+          "type": "equals",
+          "value": "Yes."
+        }
+      ],
+      "consequence": {
+        "name": "RedFlag",
+        "type": "boolean",
+        "value": true
+      }
+    },
+    {
+      "conditions": [
+        {
+          "name": "locationQuestion",
+          "type": "equals",
+          "value": "LowerBack"
+        },
+        {
+          "name": "ageRangeQuestion",
+          "type": "equals",
+          "value": "above60"
+        },
+        {
+          "name": "hasRecentTrauma",
+          "type": "equals",
+          "value": "Yes."
+        }
+      ],
+      "consequence": {
+        "name": "RedFlag",
+        "type": "boolean",
+        "value": true
+      }
+    },
+    {
+      "conditions": [
+        {
+          "name": "ageRangeQuestion",
+          "type": "equals",
+          "value": "above50Below60"
+        },
+        {
+          "name": "locationQuestion",
+          "type": "equals",
+          "value": "LowerBack"
+        },
+        {
+          "name": "constantPain",
+          "type": "equals",
+          "value": "Yes."
+        }
+      ],
+      "consequence": {
+        "name": "RedFlag",
+        "type": "boolean",
+        "value": true
+      }
+    },
+    {
+      "conditions": [
+        {
+          "name": "ageRangeQuestion",
+          "type": "equals",
+          "value": "above50Below60"
+        },
+        {
+          "name": "locationQuestion",
+          "type": "equals",
+          "value": "LowerBack"
+        },
+        {
+          "name": "unwellness",
+          "type": "equals",
+          "value": "Yes."
+        }
+      ],
+      "consequence": {
+        "name": "possibilityOfCancer",
+        "type": "boolean",
+        "value": true
+      }
+    },
+    {
+      "conditions": [
+        {
+          "name": "ageRangeQuestion",
+          "type": "equals",
+          "value": "above50Below60"
+        },
+        {
+          "name": "locationQuestion",
+          "type": "equals",
+          "value": "LowerBack"
+        },
+        {
+          "name": "cancerHistory",
+          "type": "equals",
+          "value": "Yes."
+        }
+      ],
+      "consequence": {
+        "name": "RedFlag",
+        "type": "boolean",
+        "value": true
+      }
+    },
+    {
+      "conditions": [
+        {
+          "name": "ageRangeQuestion",
+          "type": "equals",
+          "value": "above50Below60"
+        },
+        {
+          "name": "locationQuestion",
+          "type": "equals",
+          "value": "LowerBack"
+        },
+        {
+          "name": "weightLoss",
+          "type": "equals",
+          "value": "Yes."
+        }
+      ],
+      "consequence": {
+        "name": "RedFlag",
+        "type": "boolean",
+        "value": true
+      }
+    },
+    {
+      "conditions": [
+        {
+          "name": "anyFracture",
+          "type": "equals",
+          "value": "Yes."
+        },
+        {
+          "name": "locationQuestion",
+          "type": "equals",
+          "value": "LowerBack"
+        },
+        {
+          "name": "ageRangeQuestion",
+          "type": "equals",
+          "value": "above60"
+        }
+      ],
+      "consequence": {
+        "name": "RedFlag",
+        "type": "boolean",
+        "value": true
+      }
+    },
+    {
+      "conditions": [
+        {
+          "name": "locationQuestion",
+          "type": "equals",
+          "value": "LowerBack"
+        },
+        {
+          "name": "recentDiagnosedInjury",
+          "type": "equals",
+          "value": "Yes."
+        },
+        {
+          "name": "ageRangeQuestion",
+          "type": "equals",
+          "value": "above60"
+        }
+      ],
+      "consequence": {
+        "name": "RedFlag",
+        "type": "boolean",
+        "value": true
+      }
+    },
+    {
+      "conditions": [
+        {
+          "name": "locationQuestion",
+          "type": "equals",
+          "value": "LowerBack"
+        },
+        {
+          "name": "usageCorticosteroids",
+          "type": "equals",
+          "value": "Yes."
+        },
+        {
+          "name": "ageRangeQuestion",
+          "type": "equals",
+          "value": "above60"
+        }
+      ],
+      "consequence": {
+        "name": "RedFlag",
+        "type": "boolean",
+        "value": true
+      }
+    },
+    {
+      "conditions": [
+        {
+          "name": "locationQuestion",
+          "type": "equals",
+          "value": "LowerBack"
+        },
+        {
+          "name": "tenderWithTouch",
+          "type": "equals",
+          "value": "Yes."
+        },
+        {
+          "name": "ageRangeQuestion",
+          "type": "equals",
+          "value": "above60"
+        }
+      ],
+      "consequence": {
+        "name": "RedFlag",
+        "type": "boolean",
+        "value": true
+      }
+    },
+    {
+      "conditions": [
+        {
+          "name": "locationQuestion",
+          "type": "equals",
+          "value": "LowerBack"
+        },
+        {
+          "name": "reductionHeight",
+          "type": "equals",
+          "value": "Yes."
+        },
+        {
+          "name": "ageRangeQuestion",
+          "type": "equals",
+          "value": "above60"
+        }
+      ],
+      "consequence": {
+        "name": "RedFlag",
+        "type": "boolean",
+        "value": true
+      }
+    },
+    {
+      "conditions": [
+        {
+          "name": "male",
+          "type": "equals",
+          "value": "Yes."
+        },
+        {
+          "name": "locationQuestion",
+          "type": "equals",
+          "value": "LowerBack"
+        },
+        {
+          "name": "misshapingEyes",
+          "type": "equals",
+          "value": "Yes."
+        },
+        {
+          "name": "ageRangeQuestion",
+          "type": "equals",
+          "value": "below20"
+        }
+      ],
+      "consequence": {
+        "name": "RedFlag",
+        "type": "boolean",
+        "value": true
+      }
+    },
+    {
+      "conditions": [
+        {
+          "name": "locationQuestion",
+          "type": "equals",
+          "value": "LowerBack"
+        },
+        {
+          "name": "arthritis",
+          "type": "equals",
+          "value": "Yes."
+        },
+        {
+          "name": "male",
+          "type": "equals",
+          "value": "Yes."
+        },
+        {
+          "name": "ageRangeQuestion",
+          "type": "equals",
+          "value": "below20"
+        }
+      ],
+      "consequence": {
+        "name": "RedFlag",
+        "type": "boolean",
+        "value": true
+      }
+    },
+    {
+      "conditions": [
+        {
+          "name": "locationQuestion",
+          "type": "equals",
+          "value": "LowerBack"
+        },
+        {
+          "name": "inflammatoryBowelDisease",
+          "type": "equals",
+          "value": "Yes."
+        },
+        {
+          "name": "male",
+          "type": "equals",
+          "value": "Yes."
+        },
+        {
+          "name": "ageRangeQuestion",
+          "type": "equals",
+          "value": "below20"
+        }
+      ],
+      "consequence": {
+        "name": "RedFlag",
+        "type": "boolean",
+        "value": true
+      }
+    },
+    {
+      "conditions": [
+        {
+          "name": "locationQuestion",
+          "type": "equals",
+          "value": "LowerBack"
+        },
+        {
+          "name": "painWithoutProvocation",
+          "type": "equals",
+          "value": "Yes."
+        },
+        {
+          "name": "male",
+          "type": "equals",
+          "value": "Yes."
+        },
+        {
+          "name": "ageRangeQuestion",
+          "type": "equals",
+          "value": "below20"
+        }
+      ],
+      "consequence": {
+        "name": "RedFlag",
+        "type": "boolean",
+        "value": true
+      }
+    },
+    {
+      "conditions": [
+        {
+          "name": "locationQuestion",
+          "type": "equals",
+          "value": "LowerBack"
+        },
+        {
+          "name": "stiffness",
+          "type": "equals",
+          "value": "Yes."
+        },
+        {
+          "name": "male",
+          "type": "equals",
+          "value": "Yes."
+        },
+        {
+          "name": "ageRangeQuestion",
+          "type": "equals",
+          "value": "below20"
+        }
+      ],
+      "consequence": {
+        "name": "RedFlag",
+        "type": "boolean",
+        "value": true
+      }
+    },
+    {
+      "conditions": [
+        {
+          "name": "locationQuestion",
+          "type": "equals",
+          "value": "LowerBack"
+        },
+        {
+          "name": "lessPainExerecising",
+          "type": "equals",
+          "value": "Yes."
+        },
+        {
+          "name": "male",
+          "type": "equals",
+          "value": "Yes."
+        },
+        {
+          "name": "ageRangeQuestion",
+          "type": "equals",
+          "value": "below20"
+        }
+      ],
+      "consequence": {
+        "name": "RedFlag",
+        "type": "boolean",
+        "value": true
+      }
+    },
+    {
+      "conditions": [
+        {
+          "name": "locationQuestion",
+          "type": "equals",
+          "value": "LowerBack"
+        },
+        {
+          "name": "nurofenLessPain",
+          "type": "equals",
+          "value": "Yes."
+        },
+        {
+          "name": "male",
+          "type": "equals",
+          "value": "Yes."
+        },
+        {
+          "name": "ageRangeQuestion",
+          "type": "equals",
+          "value": "below20"
+        }
+      ],
+      "consequence": {
+        "name": "RedFlag",
+        "type": "boolean",
+        "value": true
+      }
+    },
+    {
+      "conditions": [
+        {
+          "name": "locationQuestion",
+          "type": "equals",
+          "value": "LowerBack"
+        },
+        {
+          "name": "ageRangeQuestion",
+          "type": "equals",
+          "value": "above60"
+        },
+        {
+          "name": "hasRecentTrauma",
+          "type": "equals",
+          "value": "No."
+        },
+        {
+          "name": "recentDiagnosedInjury",
+          "type": "equals",
+          "value": "No."
+        },
+        {
+          "name": "reductionHeight",
+          "type": "equals",
+          "value": "No."
+        },
+        {
+          "name": "tenderWithTouch",
+          "type": "equals",
+          "value": "No."
+        },
+        {
+          "name": "usageCorticosteroids",
+          "type": "equals",
+          "value": "No."
+        }
+      ],
+      "consequence": {
+        "name": "noProblem",
+        "type": "boolean",
+        "value": true
+      }
+    },
+    {
+      "conditions": [
+        {
+          "name": "locationQuestion",
+          "type": "equals",
+          "value": "LowerBack"
+        },
+        {
+          "name": "ageRangeQuestion",
+          "type": "equals",
+          "value": "below20"
+        },
+        {
+          "name": "hasRecentTrauma",
+          "type": "equals",
+          "value": "No."
+        },
+        {
+          "name": "male",
+          "type": "equals",
+          "value": "No."
+        }
+      ],
+      "consequence": {
+        "name": "noProblem",
+        "type": "boolean",
+        "value": true
+      }
+    },
+    {
+      "conditions": [
+        {
+          "name": "locationQuestion",
+          "type": "equals",
+          "value": "LowerBack"
+        },
+        {
+          "name": "ageRangeQuestion",
+          "type": "equals",
+          "value": "below20"
+        },
+        {
+          "name": "hasRecentTrauma",
+          "type": "equals",
+          "value": "No."
+        },
+        {
+          "name": "male",
+          "type": "equals",
+          "value": "Yes."
+        },
+        {
+          "name": "arthritis",
+          "type": "equals",
+          "value": "No."
+        },
+        {
+          "name": "inflammatoryBowelDisease",
+          "type": "equals",
+          "value": "No."
+        },
+        {
+          "name": "painWithoutProvocation",
+          "type": "equals",
+          "value": "No."
+        },
+        {
+          "name": "stiffness",
+          "type": "equals",
+          "value": "No."
+        },
+        {
+          "name": "lessPainExerecising",
+          "type": "equals",
+          "value": "No."
+        },
+        {
+          "name": "nurofenLessPain",
+          "type": "equals",
+          "value": "No."
+        }
+      ],
+      "consequence": {
+        "name": "noProblem",
+        "type": "boolean",
+        "value": true
+      }
+    },
+    {
+      "conditions": [
+        {
+          "name": "locationQuestion",
+          "type": "equals",
+          "value": "LowerBack"
+        },
+        {
+          "name": "ageRangeQuestion",
+          "type": "equals",
+          "value": "above50Below60"
+        },
+        {
+          "name": "hasRecentTrauma",
+          "type": "equals",
+          "value": "No."
+        },
+        {
+          "name": "weightLoss",
+          "type": "equals",
+          "value": "No."
+        },
+        {
+          "name": "constantPain",
+          "type": "equals",
+          "value": "No."
+        },
+        {
+          "name": "unwellness",
+          "type": "equals",
+          "value": "No."
+        },
+        {
+          "name": "cancerHistory",
+          "type": "equals",
+          "value": "No."
+        }
+      ],
+      "consequence": {
+        "name": "noProblem",
+        "type": "boolean",
+        "value": true
+      }
+    },
+    {
+      "conditions": [
+        {
+          "name": "locationQuestion",
+          "type": "equals",
+          "value": "Neck"
+        },
+        {
+          "name": "neckInflammationProcess",
+          "type": "equals",
+          "value": "No."
+        },
+        {
+          "name": "neckLossOfStrenghtIsolatedAtrophy",
+          "type": "equals",
+          "value": "No."
+        },
+        {
+          "name": "neckNeuropathicPain",
+          "type": "equals",
+          "value": "No."
+        },
+        {
+          "name": "neckSweat",
+          "type": "equals",
+          "value": "No."
+        },
+        {
+          "name": "neckFever",
+          "type": "equals",
+          "value": "No."
+        },
+        {
+          "name": "neckWeightLoss",
+          "type": "equals",
+          "value": "No."
+        },
+        {
+          "name": "neckHistoryOfCancer",
+          "type": "equals",
+          "value": "No."
+        },
+        {
+          "name": "neckRecentTrauma",
+          "type": "equals",
+          "value": "No."
+        },
+        {
+          "name": "neckUnwellness",
+          "type": "equals",
+          "value": "No."
+        },
+        {
+          "name": "neckConstantPain",
+          "type": "equals",
+          "value": "No."
+        }
+      ],
+      "consequence": {
+        "name": "noProblem",
+        "type": "boolean",
+        "value": true
+      }
+    }
+  ]
+}
